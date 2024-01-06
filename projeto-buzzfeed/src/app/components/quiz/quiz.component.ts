@@ -5,6 +5,18 @@ import { Component } from '@angular/core';
   templateUrl: './quiz.component.html',
   styleUrls: ['./quiz.component.css']
 })
-export class QuizComponent {
 
+export class QuizComponent {
+  title:string = ""
+
+  questions:any
+  questionSelected:any
+
+  constructor () {
+
+  }
+
+  ngOnInit(): void {
+
+  }
 }
